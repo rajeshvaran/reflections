@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+1. A new repository will be created so that we can commit the existing/future files/changes
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory is where I manually save the file. This could be from any ide.
+Repository is where the commits are added.
+Staging area is the intermediate area where I move the files before commit so that I can choose which file to commit and add those
+files alone to commit.
