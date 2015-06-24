@@ -1,0 +1,41 @@
+The diff tool is really useful.
+
+It is a much faster way of comparing two files and finding the differences.
+
+It is better to use diff -u than just plain diff command.
+The formatted output produced by '-u' switch is easily readable.
+
+In windows to do the same use fc command (fc stands for file compare).
+
+Having access to entire changes is useful, in the sense I will come to know what all changes
+had let to the current version of file.
+I can always revert to the older version if there I had made any mistakes.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Automatical Save: 
+
+Pros:
+	You will not lose any changes you made to the docs
+	
+Cons:
+	Pretty often saving clutters the history logs
+	
+
+Git style:
+
+Pros:
+	We save only when we have reached a logical point. Hence history will not be cluttered because of this.
+	Again the responsibility to commit is with us. We can always use an ide that supports auto save feature by which means we will not lose any changes to be committed.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+git log is useful to list out all the commits made so far especially using --stat it shows the statistics of a particular commit too.
+
+git diff is use for finding the differences between to commits and the lines that got added and lines that got removed.	
+
+How might using version control make you more confident to make changes that could break something?
+I can always go back and refer to older commits and see from when on an error has been introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I have a lot of projects that are using git
