@@ -8,3 +8,8 @@ Working directory is where I manually save the file. This could be from any ide.
 Repository is where the commits are added.
 Staging area is the intermediate area where I move the files before commit so that I can choose which file to commit and add those
 files alone to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Even though I can modify multiple files in the working area, I can choose which files to go as a part of a commit and move it
+to staging area using git add command.
