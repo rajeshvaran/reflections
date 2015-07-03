@@ -13,3 +13,20 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 Even though I can modify multiple files in the working area, I can choose which files to go as a part of a commit and move it
 to staging area using git add command.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+I need to branch out if I want to develop an experimental feature or a new variation of an existing thing independent of master.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help us easily identify the parent commit of any current commit. Also show us the source of the commit for any branch.
+It also helps identify which commit can be reached out from which branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is commits from merging branch is available in merged branch and it is accessible from merged branch it self.
+git merge master branch1
+
+In this case changes from branch1 is available in master itself.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git automatic merges works in case of no conflicts. In case of conflicts we have to merge manually.
