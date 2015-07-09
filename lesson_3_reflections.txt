@@ -1,3 +1,14 @@
 When would you want to use a remote repository rather than keeping all your work local?
 When I want to work different boxes
 When I want to collaborate with multiple users.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks -> This is done when you want to clone a github repo within github. On top of cloning, git hub maintains the 
+count of number of people who forked from a parent repository
+
+clones -> We can clone either a local repository or a remote repository to our local box. What ever changes we push 
+would ideally go to the repository named origin. In this case it is the remote repository which we have just cloned.
+
+Branch -> Branch is just a label for a particular checkin so that if want to get back to that checkin we can do so easily.
+And the branch checkin would be the parent of subsequent childs. By switching branch we can go to a different logical point in code.
